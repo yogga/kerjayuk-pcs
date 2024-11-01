@@ -5,8 +5,6 @@ import { Avatar, Box, Button, IconButton } from '@mui/material';
 import { useNavigate } from "react-router-dom";
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import CheckIcon from '@mui/icons-material/Check';
-import ClearIcon from '@mui/icons-material/Clear';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import notificationApi from "./../../../public/assets/notificationAPI.json";
 import { useEffect, useState } from "react";
 
