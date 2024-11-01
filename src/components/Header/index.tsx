@@ -15,7 +15,9 @@ export default function Header() {
     return (
         <StickyHeader>
             <div className="flex justify-between items-center pt-5 pb-4 px-5">
-                <p className="font-extrabold text-mainColor-100 bg-red text-2xl md:text-3xl leading-none">KerjaYuk!</p>
+                <p className="font-extrabold text-mainColor-100 bg-red text-2xl md:text-3xl leading-none">
+                    KerjaYuk! 
+                </p>
 
                 <Box sx={{ color: 'action.active' }} onClick={handleNotification}>
                     <IconButton>
